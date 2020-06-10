@@ -7,30 +7,28 @@
         <h2 ALIGN="CENTER">REGISTER AND UPDATE FACULTY</h2>
     </br>
 </br>
-        <form method="POST" action="">
+        <form method="POST" action="fadd.php">
             <p>
                 <label style="position: absolute;left:800px;font-size: 20px"><b>ID</b></label>
-                <input type="text" id="id" style="position: absolute;left:930px">
+                <input type="text" id="id" name="id" style="position: absolute;left:930px">
             </br>
             <div id="emsg1"style="font-size: 15;position:absolute ;left:900" >
                 </div>
             </p>
         </br>
-    </br>
-</br>
+    
             <p>
                 <label style="position: absolute;left:800px;font-size: 20px"><b>Name</b></label>
-                <input type="text" id="Name"style="position: absolute;left:930px">
+                <input type="text" id="Name" name="name" style="position: absolute;left:930px">
             </br>
             <div id="emsg2"style="font-size: 15;position:absolute ;left:900" >
                 </div>
             </p>
-        </br>
-    </br>
+        
 </br>
         <p>
-            <label style="position: absolute;left:800px;font-size: 20px"><b>Email</b></label>
-            <input type="text" id="mail" style="position: absolute;left:930px">
+            <label style="position: absolute;left:800px;font-size: 20px"><b>Subject</b></label>
+            <input type="text" id="mail" name="sub" style="position: absolute;left:930px">
         </br>
         <div id="emsg3"style="font-size: 15;position:absolute ;left:900" >
             </div>
@@ -38,51 +36,19 @@
     </br>
 </br>
 </br>
-    <p>
-        <label style="position: absolute;left:800px;font-size: 20px"><b>Phone no</b></label>
-        <input type="text" id="phno" style="position: absolute;left:930px">
-    </br>
-    <div id="emsg4"style="font-size: 15;position:absolute ;left:900" >
-        </div>
-    </p>
-</br>
-</br>
-</br>
-<p>
-    <label style="position: absolute;left:800px;font-size: 20px"><b>Qualification: </b></label>
-    <select name="qualification" style="position: absolute;left:930px">
-            <option selected>BE</option>
-            <option>ME</option>
-            <option>Phd</option>
-
-            </select>
-</p>
-</br>
-</br>
-</br>
-    <p>
-        <label style="position: absolute;left:800px;font-size: 20px"><b>Department: </b></label>
-        <select name="Department" style="position: absolute;left:930px">
-                <option selected>ETC</option>
-                <option>IT</option>
-                <option>Comp</option>
-
-                </select>
-</p>
-</br>
-</br>
 </br>
 
-<input type="submit" value="REGISTER" style="position: absolute;left: 760;width: 4cm;height: 1cm;font-family: Georgia, 'Times New Roman', Times, serif;">
+<input type="submit" value="REGISTER" name="Enter" style="position: absolute;left: 760;width: 4cm;height: 1cm;font-family: Georgia, 'Times New Roman', Times, serif;">
+<input type="submit" value="UPDATE" name="update" style="position: absolute;left: 970;width: 4cm;height: 1cm;font-family: Georgia, 'Times New Roman', Times, serif;">
+
 <script src="register1.js" type="text/javascript"></script>
 
     </form>
 
-        <form method="POST" action="">
-<input type="submit" value="UPDATE" style="position: absolute;left: 970;width: 4cm;height: 1cm;font-family: Georgia, 'Times New Roman', Times, serif;">
+    
        
 
-        </form>
+        
 
         <form action="faculty.html">
             <input type="submit" value="Back" style="position: absolute;left: 1700;width: 4cm;height: 1cm;font-family: Georgia, 'Times New Roman', Times, serif;">

@@ -5,41 +5,96 @@
     <body>
     </br>
 
-        <h2 AlIGN="CENTER">Subject details</h2>
+        <h2  style="position: absolute;left:850px">Subject details</h2>
     </br>
-    <form method="POST" action="">
+</br>
+
+</br>
+
+    <form method="POST" action="subdetail1.php">
         <p>
-                <label style="position: absolute;left:800px;font-size: 20px">subject id: </label>
-                <input type="text" id="subid" style="position: absolute;left:970px">
+                <label style="position: absolute;left:800px;font-size: 20px">Subject id: </label>
+                <input type="text" id="subid" name="subid" style="position: absolute;left:970px">
         </p>
     </br>
+</br>
+<p>
+    <label style="position: absolute;left:800px;font-size: 20px">Class: </label>
+    <select name="Class" style="position: absolute;left:970px">
+        <option selected>FE</option>
+        <option>SE</option>
+        <option>TE</option>
+        <option>BE</option>
+
+
+        </select>
+</p>
+</br>
 </br>
 
         <p>
                 <label style="position: absolute;left:800px;font-size: 20px">Subject name: </label>
-                <input type="text" id="sname" style="position: absolute;left:970px">
+                <input type="text" id="sname" name="sname" style="position: absolute;left:970px">
         </p>
     </br>
 </br>
 
         <p>
-                <label style="position: absolute;left:800px;font-size: 20px">Department: </label>
-                <select name="gender" style="position: absolute;left:970px">
-                        <option selected>ETC</option>
-                        <option>IT</option>
-                        <option>Comp</option>
-
-                        </select>
+                <label style="position: absolute;left:800px;font-size: 20px">Lectures per sem: </label>
+                <input type="text" name="lps" style="position: absolute;left:970px">
+                        
         </p>
     </br>
 </br>
+<p>
+    <label style="position: absolute;left:800px;font-size: 20px">No of studnets: </label>
+    <input type="text" name="nos" style="position: absolute;left:970px">
+            
+</p>
+</br>
+</br>
+</br>
+
 
         <p>
-            <input type="submit" value="Submit"style="position: absolute;left:915px">
+            <input type="submit" value="Submit" name="Enter" style="position: absolute;left:880px">
+            <input type="submit" value="Update" name="Update" style="position: absolute;left:950px">
+
 
         </p>
+    </br>
+<p>
+    <h2 style="position: absolute;left:900px">Delete</h2> 
+</br>
+</br>
+</br>
+</br>
 
+    <label style="position: absolute;left:800px;font-size: 20px">Subject id: </label>
+                <input type="text" id="subid" name="dsubid" style="position: absolute;left:970px">
+            </br>
+        </br>
+
+</p>
+<p>
+    <input type="submit" value="Delete" name="Del" style="position: absolute;left:900px">
+
+</p>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<label><i>*In case for updatation kindly enter the id followed by the details</i></label>
     </form>
+</br>
+</br>
+</br>
+</br>
+<a href="Mainmenu.html">Click to go back</a>
 
     </body>
 </html>
