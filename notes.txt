@@ -1,2 +1,2 @@
-check c.js
-not adding validations for map
+Check validation for everything (js)
+add background
