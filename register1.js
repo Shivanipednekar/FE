@@ -30,10 +30,9 @@ ermsg2.innerHTML = '';
 
 var e3= document.getElementById('mail');
 var ermsg3 = document.getElementById('emsg3');
-var alphaemail =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 e3.addEventListener('blur', function() {
-    if (e3.value.match(alphaemail)) {
+    if (e3.value.length==0) {
         ermsg3.innerHTML = '';
         }
         else{
